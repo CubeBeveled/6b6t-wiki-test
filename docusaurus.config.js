@@ -9,7 +9,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '6b6t Wiki',
-  tagline: '6builders6tools wiki',
+  tagline: '6builders 6tools wiki',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -81,13 +81,9 @@ const config = {
             title: 'Useful links',
             items: [
               {
-                label: 'Wiki',
-                to: '/docs/introduction',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/therealrealguy/6b6twiki/',
-              },
+                label: '6b6t.org Official Website',
+                to: 'https://www.6b6t.org/',
+              }
             ],
           },
           {
@@ -96,6 +92,11 @@ const config = {
               {
                 label: 'Discord',
                 href: 'https://discord.gg/Em4AAcjXvD',
+              },
+              {
+                href: 'https://github.com/therealrealguy/6b6twiki/',
+                label: 'GitHub',
+                position: 'right',
               },
             ],
           }
