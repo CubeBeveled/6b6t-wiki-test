@@ -66,7 +66,7 @@ const config = {
           src: 'img/logo.jpg',
         },
         items: [
-          { to: '/docs', label: 'Wiki', position: 'left' },
+          { to: '/docs/introduction', label: 'Wiki', position: 'left' },
           {
             href: 'https://github.com/therealrealguy/6b6twiki/',
             label: 'GitHub',
@@ -82,7 +82,7 @@ const config = {
             items: [
               {
                 label: 'Wiki',
-                to: '/docs/intro',
+                to: '/docs/introduction',
               },
               {
                 label: 'GitHub',
