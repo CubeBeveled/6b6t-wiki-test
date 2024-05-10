@@ -10,7 +10,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: '6b6t Wiki',
   tagline: '6builders 6tools wiki',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/icons/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://6b6t-wiki.vercel.app/',
@@ -23,7 +23,7 @@ const config = {
   organizationName: '6b6t', // Usually your GitHub org/user name.
   projectName: '6b6t-wiki', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn', // advik here this was buggin me cause i tend to link nonexistent sites to show a page or like a placeholder
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -41,11 +41,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
+          routeBasePath: '/', // Serve the docs at the site's root
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -58,15 +54,15 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/icons/logo.jpg',
       navbar: {
         title: 'The 6b6t wiki',
         logo: {
           alt: '6b6t wiki logo',
-          src: 'img/logo.jpg',
+          src: 'img/icons/logo.jpg',
         },
         items: [
-          { to: '/docs/introduction', label: 'Wiki', position: 'left' },
+          { to: '/', label: 'Wiki', position: 'left' },
           {
             href: 'https://github.com/therealrealguy/6b6twiki/',
             label: 'GitHub',
@@ -83,6 +79,10 @@ const config = {
               {
                 label: '6b6t.org Official Website',
                 to: 'https://www.6b6t.org/',
+              },
+              {
+                label: 'Credits',
+                to: '/credits',
               }
             ],
           },
