@@ -1,6 +1,10 @@
 ---
 sidebar_position: 1
 sidebar_label: 'Introduction'
+title: 'Introduction'
+slug: /
+tags:
+  - Getting Started
 ---
 
 # 6b6t.org wiki introduction
@@ -13,7 +17,7 @@ Welcome to the 6b6t Wiki, the go to encyclopedia for information regarding 6b6t.
 - A: This website will contain info about bases groups events builds and much much more about the server and its history
 
 - Q: Is the 6b6t wiki biased ?
-- A: The 6b6t wiki is an open source project to wich anyone can contribute so no, the wiki isn't biased
+- A: The 6b6t wiki is an open source project to which anyone can contribute so no, the wiki isn't biased
 
 - Q: How can i contribute to the 6b6t wiki ?
 - A: You can clone the GitHub repository on your device, modify it then open a pull request or PR wich will be accepted if approved by one of the owners
@@ -32,3 +36,5 @@ Related links:
 * [6b6t's official Facebook](https://www.facebook.com/6b6tAnarchy)
 * [6b6t's official Pinterest](https://www.pinterest.com/6b6tanarchy)
 * [6b6t's official Blog](https://www.6b6t.org/en/blog)
+* 
+![banner](../static/img/icons/banner.avif)
